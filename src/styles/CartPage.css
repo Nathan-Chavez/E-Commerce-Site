@@ -1,0 +1,42 @@
+.Cart {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 800px;
+    padding-bottom: 200px;
+}
+
+.cart-header {
+    flex: 0 1 50%;
+    max-width: 100%;
+    min-height: 30%;
+    padding: 0 2rem;
+}
+
+.cart-list {
+    flex: 0 1 50%;
+    max-width: 100%;
+    min-height: 20%;
+}
+
+.TotalBar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .ButtonBar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
